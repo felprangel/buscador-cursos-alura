@@ -1,6 +1,7 @@
 {
     "name": "felprangel/buscador-cursos-alura",
     "description": "Projeto que busca os cursos da alura",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
