@@ -1,0 +1,18 @@
+{
+    "name": "felprangel/buscador-cursos-alura",
+    "description": "Projeto que busca os cursos da alura",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Felprangel\\BuscadorCursosAlura\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe Rangel",
+            "email": "feliperangel897@gmail.com"
+        }
+    ],
+    "require": {}
+}
