@@ -6,8 +6,7 @@ use Felprangel\BuscadorCursosAlura\Buscador;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
-$url ='https://www.alura.com.br/cursos-online-programacao/php';
-$client = new Client();
+$client = new Client(['base_uri' => 'https://www.alura.com.br/']);
 $crawler = new Crawler();
 
 $buscador = new Buscador($client, $crawler);
