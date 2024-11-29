@@ -36,5 +36,5 @@
             "pestphp/pest-plugin": true
         }
     },
-    "bin": ["buscar-cursos.php"]
+    "bin": ["buscar-cursos"]
 }
