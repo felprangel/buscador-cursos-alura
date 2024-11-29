@@ -9,6 +9,11 @@
             "Felprangel\\BuscadorCursosAlura\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+            }
+        },
     "authors": [
         {
             "name": "Felipe Rangel",
