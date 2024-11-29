@@ -35,5 +35,6 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
-    }
+    },
+    "bin": ["buscar-cursos.php"]
 }
