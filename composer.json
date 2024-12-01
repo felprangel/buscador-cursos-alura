@@ -36,5 +36,8 @@
             "pestphp/pest-plugin": true
         }
     },
-    "bin": ["buscar-cursos"]
+    "bin": ["buscar-cursos"],
+    "scripts": {
+        "test": "pest --coverage --min=100"
+    }
 }
